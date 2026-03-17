@@ -16,13 +16,13 @@ Single-file Python 3 CLI tool (`passgen`) that generates passwords using the BIP
 
 ## Password Format
 
-`{special}{UPPER}.{word}.{word}.{word}.{word}.{word}.{4digits}`
+`{special}{UPPER}.{word}.{word}.{word}.{word}.{word}.{word}.{4digits}`
 
-Example: `%V.drink.response.ladder.cannon.sun.6259`
+Example: `%V.drink.response.ladder.cannon.sun.board.6259`
 
 - `special`: one of `!@#$%^&*`
 - `UPPER`: one uppercase letter (I and O excluded)
-- `words`: 5 random words from the 2048-word BIP39 list
+- `words`: 6 random words from the 2048-word BIP39 list
 - `digits`: random number 1000–9999
 
 ## Notes

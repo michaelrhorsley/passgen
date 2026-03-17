@@ -5,20 +5,20 @@ A command-line password generator that builds secure, memorable passwords from t
 ## Password Format
 
 ```
-{special}{UPPER}.{word}.{word}.{word}.{word}.{word}.{4 digits}
+{special}{UPPER}.{word}.{word}.{word}.{word}.{word}.{word}.{4 digits}
 ```
 
 Example output:
 
 ```
-%V.drink.response.ladder.cannon.sun.6259
+%V.drink.response.ladder.cannon.sun.board.6259
 ```
 
 | Component | Description |
 |-----------|-------------|
 | `special` | One random character from `! @ # $ % ^ & *` |
 | `UPPER`   | One random uppercase letter (I and O excluded) |
-| `words`   | Five random words from the 2048-word BIP39 list |
+| `words`   | Six random words from the 2048-word BIP39 list |
 | `digits`  | Random number between 1000 and 9999 |
 
 ## Usage
