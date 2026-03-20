@@ -28,4 +28,6 @@ Example: `%V.drink.response.ladder.cannon.sun.board.6259`
 ## Notes
 
 - Uses `secrets` module for cryptographically secure randomness
-- `BIP39.txt` is a reference file; the actual word list is the `WORDS` constant in the script
+- The word list is the `WORDS` constant embedded in the script (no external files read at runtime)
+- No tests, linter, or build system — it's a single executable script
+- The script has no function definitions; all logic is at the top level
